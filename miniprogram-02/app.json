@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/button/button",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "购物小站",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#000000",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "assets/tabbar/006.png",
+        "selectedIconPath": "assets/tabbar/007.png"
+      }, {
+        "pagePath": "pages/logs/logs",
+        "text": "logs",
+        "iconPath": "assets/tabbar/008.png",
+        "selectedIconPath": "assets/tabbar/009.png"
+      }, {
+        "pagePath": "pages/button/button",
+        "text": "button",
+        "iconPath": "assets/tabbar/012.png",
+        "selectedIconPath": "assets/tabbar/007.png"
+      }, {
+        "pagePath": "pages/about/about",
+        "text": "about",
+        "iconPath": "assets/tabbar/010.png",
+        "selectedIconPath": "assets/tabbar/011.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

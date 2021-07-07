@@ -1,0 +1,26 @@
+<!--pages/button/button.wxml-->
+<text>pages/button/button.wxml</text>
+
+<text>\n1.基本使用:\n</text>
+<button>基本使用</button>
+
+<text>\n2.size属性:\n</text>
+<button size="mini">mini</button>
+<button size="mini">mini</button>
+
+<text>\n3.type属性:\n</text>
+<button size="mini" type="primary">主要的</button>
+<button size="mini" type="default">默认的</button>
+<button size="mini" type="warn">警告</button>
+
+<text>\n4.镂空效果:\n</text>
+<button size="mini" plain>镂空</button>
+
+<text>\n5.disabled:\n</text>
+<button size="mini" disabled>不可用</button>
+
+<text>\n6.loading:\n</text>
+<button size="mini" loading="{{isLoading}}" bindtap="changeLoading">{{btnLoading}}</button>
+
+<text>\n7.点击按钮时，改变按钮css:\n</text>
+<button size="mini" hover-class="pressed">按钮css</button>
